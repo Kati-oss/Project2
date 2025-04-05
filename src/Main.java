@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int startingScore = 100; // начальный счет
+        int startingScore = 200; // начальный счет
         int replenishment = 1000; // сумма пополнения
 
         int bonus;
@@ -11,6 +11,7 @@ public class Main {
             bonus = replenishment / 100;
         } else {
             bonus = 0;
+            System.out.println(replenishment / 100);
         }
     }
 
