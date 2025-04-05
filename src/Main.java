@@ -8,10 +8,10 @@ public class Main {
 
         int bonus;
         if (replenishment > 1000) {
-            bonus = replenishment / 100;
+            bonus = replenishment / 200;
         } else {
             bonus = 0;
-            System.out.println(replenishment / 100);
+            System.out.println(replenishment / 200);
         }
     }
 
