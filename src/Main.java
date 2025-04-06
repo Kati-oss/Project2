@@ -6,9 +6,11 @@ public class Main {
         int startingScore = 200; // начальный счет
         int replenishment = 1000; // сумма пополнения
 
-        int bonus;
+        System.out.println(startingScore / replenishment);
+
+        int bonus = 0;
         if (replenishment > 1000) {
-            bonus = replenishment / 200;
+
         } else {
             bonus = 0;
             System.out.println(replenishment / 200);
